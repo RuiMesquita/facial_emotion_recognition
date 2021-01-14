@@ -48,6 +48,13 @@ for outer_name in outer_names:
     for inner_name in inner_names:
         os.makedirs(os.path.join('data', outer_name, inner_name), exist_ok=True)
 
+# making the masked dataset
+emotion_names = ['angry', 'disgusted', 'fearful', 'happy', 'sad', 'surprised', 'neutral']
+
+os.makedirs('data_masks', exist_ok=True)
+for emotion_name in emotion_names:
+    os.makedirs(os.path.join('data_masks', emotion_name), exist_ok=True)
+
 # keeping count of each category
 angry = 0
 disgusted = 0
