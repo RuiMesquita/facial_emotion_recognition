@@ -6,7 +6,7 @@ we are facing.
 
 ## How to use ##
 
-1. Set the working environment to the facial_emotion_recognition folder (".facial_emotion_recognition")
+1. Set the working environment to the facial_emotion_recognition folder ("./facial_emotion_recognition")
 2. Do *pip install -r requirements* for installing all the libraries used
 3. The emotions.py script can be runed in three diferent mods
     * *python emotions.py --mode train* (there's already a training model avaible, so you don't need to do this part)
