@@ -1,6 +1,6 @@
 ### Facial Emotion Recognition ###
 
-This repository uses a deep learning neural network to do facil emotion recognition in real
+This repository uses a deep learning neural network to do facial emotion recognition in real
 time. Also, has the option to do tests for individuals using surgical masks, since the times
 we are facing.
 
